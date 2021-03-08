@@ -1,0 +1,14 @@
+.main {
+    font-family: "Ubuntu Mono", sans-serif;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+@media (max-width: 720px) {
+    .main {
+        display: block;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+}

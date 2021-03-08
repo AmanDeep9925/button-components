@@ -1,0 +1,26 @@
+.buttonsWrapper {
+    grid-column: 2 / span 5;
+    align-self: start;
+    justify-self: stretch;
+}
+
+.buttonsWrapper .heading {
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.container {
+    width: auto;
+    margin: 20px 0;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.code {
+    margin-bottom: 20px;
+}
+
+.pseudoClass {
+    color: rgba(130, 130, 130, 1);
+}
